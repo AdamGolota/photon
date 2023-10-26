@@ -109,6 +109,8 @@ If you have updated nominatim with another method, photon can be updated by maki
 curl http://localhost:2322/nominatim-update
 ```
 
+in order for this endpoint to be accessible, you must start photon with an additional `-enable-update-api` CLI flag.
+
 
 ### Search API
 
